@@ -1,0 +1,1 @@
+if(matchMedia("(pointer:coarse)").matches||navigator.maxTouchPoints>0&&Math.min(screen.width,screen.height)<1e3){let e=document.createElement("link");e.rel="stylesheet",e.href="mobile.css",await new Promise((t,a)=>{e.onload=t,e.onerror=a,document.head.append(e)}),await import("./part-Y3NGOIOC.js")}else await import("./part-Q66YDRLW.js");
