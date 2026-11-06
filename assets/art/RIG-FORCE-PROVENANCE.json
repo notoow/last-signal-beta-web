@@ -1,0 +1,78 @@
+{
+  "generatedOn": "2026-11-05",
+  "generator": "OpenAI built-in image_gen",
+  "generationEvents": 3,
+  "preGenerated": true,
+  "liveGeneration": false,
+  "styleReference": "Project-created gameplay art only",
+  "processing": "Equal-cell separation and one fixed anchor/uniform resampling scale per effect; no repaint or individual frame fitting",
+  "effects": [
+    {
+      "kind": "standard",
+      "sourceSha256": "7649f84119a858fddfb6a59086b1725e2d697897a2663934ba1816c462532eed",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "world": [
+        32,
+        32
+      ],
+      "ends": [
+        0.06,
+        0.15,
+        0.28
+      ],
+      "runtimeSheet": "rig-standard-sheet.png"
+    },
+    {
+      "kind": "bilge",
+      "sourceSha256": "045929a347815f4f3e05ac594b2c829b40fa9f0c2c89220088e78eb62767ef35",
+      "canvas": [
+        256,
+        128
+      ],
+      "pivot": [
+        24,
+        64
+      ],
+      "world": [
+        48,
+        24
+      ],
+      "ends": [
+        0.07,
+        0.2,
+        0.34
+      ],
+      "runtimeSheet": "rig-bilge-sheet.png"
+    },
+    {
+      "kind": "winch",
+      "sourceSha256": "550e7c4f4177ea5d88d1e535ddeacf4c4fe3ea6fb0715366f8ebd35b2983e1ac",
+      "canvas": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        80
+      ],
+      "world": [
+        20,
+        20
+      ],
+      "ends": [
+        0.05,
+        0.12,
+        0.22
+      ],
+      "runtimeSheet": "rig-winch-sheet.png"
+    }
+  ],
+  "rights": "No claim of CC0, exclusive copyright or wholly human authorship. Include these3 generation events/9 aligned keys/3 runtime sheets in Steam pre-generated AI disclosure."
+}
