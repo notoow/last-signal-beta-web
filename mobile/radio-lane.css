@@ -1,0 +1,1 @@
+html[data-mobile-ui=true] .mobile-playing #rogue[data-surface=playing] #rogueRadio[data-radio-lane=true]:not(:empty){box-sizing:border-box;top:max(var(--radio-lane-top),var(--radio-lane-safe-top,env(safe-area-inset-top,0px)));left:var(--radio-lane-left);right:auto;width:max-content;max-width:var(--radio-lane-width);max-height:none;overflow:visible}

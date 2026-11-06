@@ -360,124 +360,14 @@ assets/art/abandoned-net-carried-v1.png is the unchanged registered image_gen ca
 `assets/art/crew-sd-jeong-v3.png`, `crew-sd-jeong-idle-v3.png`, `crew-sd-jeong-strike-v3.png` and `crew-jeong-menu-v3.png` are project-specific pre-generated image_gen character artwork based on the user's approved slender body and subtle smile. They are byte-identical selections from `art-workshop/2026-11-03/jeong-approved-runtime-01/`. Original model/sprite references, prompts, rejected candidates, registration contracts and generation records remain in the private workshop. The main atlas and strike retain the approved raster pixels; added idle variants are uniformly registered. No external stock asset, CC0 license, exclusive copyright or wholly human authorship is asserted. Include these four assets in the Steam pre-generated AI content inventory. Original runtime images remain available; private photos, prompts and workshop receipts are not exported.
 
 
-Near-wall candidate materials (2026-11-04): cliff-top-v2.png, cliff-crown-v2.png, near-wall-body-v1.png and near-wall-cap-v1.png are original project image_gen outputs. Exact sources/hashes and retained crop limitations: assets/art/NEAR-WALL-PROVENANCE.json, art-workshop/2026-11-04/production-cliff-materials-01/generation-record.json and near-wall-dedicated-sheet-01/generation-record.json in the private source workspace. No external stock/sprite or OSS license is asserted; generated-service terms and reference rights apply. Earlier art remains preserved.
-
-
-## Unpublished parry feedback review — 2026-11-04
-
-`assets/art/crew-sd-park-parry-active-hold-upper-v1.png`, `assets/art/crew-sd-park-parry-success-snap-upper-v1.png`, `assets/art/crew-sd-park-parry-whiff-recover-upper-v1.png`, `assets/art/crew-sd-park-parry-riposte-ready-upper-v1.png`, `assets/art/crew-sd-park-parry-keyposes-v1.png`, `assets/art/crew-sd-woo-parry-active-hold-upper-v2.png`, `assets/art/crew-sd-woo-parry-success-snap-upper-v2.png`, `assets/art/crew-sd-woo-parry-whiff-recover-upper-v2.png`, `assets/art/crew-sd-woo-parry-riposte-ready-upper-v3.png`, `assets/art/crew-sd-woo-parry-keyposes-v3.png`, `assets/art/crew-sd-woo-parry-lower-v2.png`, `assets/art/shore-parry-contact-fx-v1.png` are project-specific pre-generated image_gen resources. They are not third-party game sprites or CC0 stock, and no exclusive copyright or wholly human authorship is asserted. Include adopted resources in the Steam pre-generated AI inventory. Runtime uses prepared images; no live generation. Exact prompts, original outputs, source contracts, masks, authored repairs and limited art acceptances remain in private art-workshop/2026-11-04/shore-parry-park-motion-01, shore-parry-park-upperbody-01, shore-parry-woo-motion-01/revision-02 and revision-03, and shore-contact-fx-01. Provenance receipts in this review identify exact SHA256/source paths. No private photo, prompt or workshop receipt belongs in public runtime exports. These copies are frozen for private integration only; full character/direction/transition acceptance and public release approval are pending. Original audio cues use existing project anchor audio plus synthesized tones; no new external audio asset/license.
-
-
-## Han side parry review — 2026-11-04
-
-`assets/art/crew-sd-han-parry-active-hold-upper-v1.png`, `assets/art/crew-sd-han-parry-success-snap-upper-v1.png`, `assets/art/crew-sd-han-parry-whiff-recover-upper-v1.png`, `assets/art/crew-sd-han-parry-riposte-ready-upper-v1.png`, `assets/art/crew-sd-han-parry-lower-v1.png` are project-specific pre-generated image_gen resources. Head and original visible lower legs are retained according to the art owner's protected masks; pose torso/arms/bag/strap and newly exposed cloth are authored generated pixels, not recovered historical source. No external game sprite, CC0 license, exclusive copyright or wholly human authorship is asserted. Include adopted images in the Steam pre-generated AI inventory. Prompts, originals, rejected masks, corrected crown clipping and exact pivot/ref375/two-column contracts remain privately in art-workshop/2026-11-04/shore-parry-han-{hold,success,whiff,ready}-01. Provenance records here identify exact hashes. Runtime uses prepared images only. Do not export private photos, prompts or workshop evidence. Actual side/phase captures and one input flow have limited review; front/rear, Jeong and human/device acceptance remain open.
-
-
-## Jeong side defense art — 2026-11-04
-
-`assets/art/crew-sd-jeong-parry-active-hold-upper-v1.png`, `assets/art/crew-sd-jeong-parry-success-snap-upper-v1.png`, `assets/art/crew-sd-jeong-parry-whiff-recover-upper-v1.png`, `assets/art/crew-sd-jeong-parry-riposte-ready-upper-v1.png`, `assets/art/crew-sd-jeong-parry-lower-v1.png` are project-specific pre-generated image_gen resources. Original approved head, hip calibration and visible lower legs remain protected by the art owner contracts; newly exposed uniform cloth and defensive arms/tool poses contain newly authored generated pixels. No external game sprite, CC0 license, exclusive copyright or wholly human authorship is asserted. Include adopted images in the Steam pre-generated AI inventory. Original/private reference photos, prompts, rejected cells and masks stay private in art-workshop/2026-11-04/shore-parry-jeong-{hold,three-keys}-01. Runtime uses four uppers/shared lower only, not export sheets. Canvas512, pivot256448, reference362, original2column cadence and atomic normalv3 bundle remain. Actual side static captures have limited review; temporal/input/front/rear/human/device approval is separate.
-
-
-## Jeong ready revision02 — 2026-11-04
-
-`assets/art/crew-sd-jeong-parry-riposte-ready-upper-v2.png` is a project-specific pre-generated image_gen masked revision of the preceding Jeong ready upper. It replaces only the selected ready upper at runtime; original approved head, belt core, lower pixels and pivot/socket contract remain protected. New tool/hand pixels are newly authored generated content. Keep it in the Steam pre-generated AI inventory; no external game sprite or third-party CC0 license, exclusive copyright or wholly human authorship is asserted. Prompts, rejected previous ready overlap and original contracts stay privately in art-workshop/2026-11-04/shore-parry-jeong-ready-02. Runtime loads this resource instead of v1, not both; older files/builds remain preserved. Limited same-scene side/phase review is separate from human/device/front-rear acceptance.
-
-
-Story1 industrial prop replacement (2026-11-04): story1-cutter-base-v1.png, story1-cutter-rotor-v1.png, story1-floating-steel-v2.png, story1-gate-closed-v2.png and story1-gate-open-v2.png are project-specific pre-generated image_gen resources, not third-party game sprites or CC0 stock. No exclusive copyright or wholly human authorship is asserted. Include these adopted images in the Steam pre-generated AI inventory. Runtime loads prepared images only. Exact generated originals, prompts, rejected versions and authored separation/normalization contracts remain privately in art-workshop/2026-11-04/story1-missing-props-01 (contract-v2.json). Existing fleet, harbor and crew atlases retain their preceding provenance. Do not export private photos, prompts or workshop receipts. Visual envelopes/pivots preserve original aspect ratios; collision bodies are separate and unchanged. Actual scene reviews and their limits are recorded separately.
-
-
-Skippable voyage presentation (2026-11-04): dredger-outro-{ignition,burst,smoke}-512.png and region-{1,2,3}-clear-background.png are original project pre-generated image_gen assets, not external game sprites/CC0 stock. No exclusive rights or wholly human authorship are asserted. Include adopted images in the Steam pre-generated AI inventory. Runtime uses prepared images, not live generation. Exact originals, prompts, rejected concept and normalization/pivot contracts remain private in art-workshop/2026-11-04/boss-outro-region-clear-01. The concept-only fullscene is excluded. Existing defeated dredger is reused under its preceding provenance. Narrative text is separately supplied in experiments/story-region-cards-20261104/region-cards.json and rendered as HTML, not baked into images. No private photo/prompt/workshop receipt is included in public runtime exports. Limited actual-scene acceptance is separate from full gameplay/device verification.
-
-
-## Guardian pressure contact art — 2026-11-04
-
-assets/art/dev9-guardian-pressure-contact-{early,peak,disperse}.png are project-specific pre-generated image_gen resources. Existing dev9-pump-jet-jet-a/b.png water material is reused without new third-party assets. No external game sprites, exclusive copyright or wholly human authorship is asserted. Include adopted images in the Steam pre-generated AI inventory. Private prompt, original sheet, extraction and pivot contracts remain in art-workshop/2026-11-04/guardian-pressure-art-01 and must not be exported as runtime assets. Runtime uses prepared images only; actual scene acceptance is separate from generation.
-
-
-## Player guardian pressure stream — 2026-11-04
-
-assets/art/dev9-guardian-pressure-player-jet-{a,b}-v2.png are project-specific pre-generated image_gen edits for the player support stream. Existing pump warden stream assets remain unchanged. Private original edit output, prompt, uniform-scale normalization and socket contracts remain in art-workshop/2026-11-04/guardian-pressure-player-jet-02. No external game sprites, exclusive copyright or wholly human authorship is asserted; include adopted images in the Steam pre-generated AI inventory. Prepared-image runtime only, no live generation. Private workshop materials are excluded from runtime exports.
-
-
-## Additional original pre-generated AI artwork — 2026-11-05
-
-The project-specific files `assets/art/dev9-machine-heart-idle-v1.png`, `assets/art/dev9-machine-heart-warn-v1.png`, `assets/art/dev9-machine-heart-idle-loop-v1.png`, and `assets/art/voyage-harbor-ui-v1.png` are built-in OpenAI image_gen outputs prepared from original project artwork/reference material. Exact adopted runtime bytes are matched to the retained private source and registration contracts. These files do not introduce an external stock/game-sprite license. No CC0 status, exclusive copyright or wholly human authorship is asserted; generated-service terms and reference rights apply.
-
-Include these four adopted files in the Steam pre-generated AI content inventory when preparing the content survey. Generation sources, private prompts, original photographs, workshop concepts and review receipts are not runtime assets and must not be exported. A scoped beta art adoption does not assert complete attack/death animation, human readability, device performance or Steam readiness.
-
-## Project lighthouse tab icons — 2026-11-05
-
-`assets/social/last-signal-favicon-32-v1.png` and `last-signal-favicon-48-v1.png` are original project pre-generated image_gen artwork. They reuse unchanged PNG bytes from the retained2026-11-02 icon candidate, adopted after a separate32/48px readability review on2026-11-05. They are not external game icons or CC0 stock; no exclusive rights or wholly human authorship is asserted. Include these two files in the Steam pre-generated AI inventory. Private original, prompt and prior unintegrated contract stay in art-workshop/2026-11-02/last-signal-favicon-01 and are not runtime exports. Only the reviewed32/48PNG files are adopted; larger sizes, ICO and source sheets are not included by this adoption.
-
 ## Distribution build tooling (2026-11-05)
 
 esbuild 0.28.2, Copyright (c) 2020 Evan Wallace, MIT License. Build-only dependency; the development tool and its dependency tree are not shipped with the game. Exact license: scripts/distribution-protection/licenses/esbuild-MIT.txt. Official source: https://github.com/evanw/esbuild . Existing runtime asset and third-party notices remain unchanged.
 
-Exact build-tool MIT license:
 
-MIT License
+## Experimental closed-coast triangulation (2026-11-06)
 
-Copyright (c) 2020 Evan Wallace
+Earcut v3.0.2, Mapbox and contributors, ISC License. Used only by the unadopted preparation prototype in experiments/closed-coast-mesh-20261106-01; no published runtime addition. Exact unchanged upstream source and license are retained at experiments/closed-coast-mesh-20261106-01/vendor/earcut.mjs and vendor/EARCUT-LICENSE, with source URLs and SHA256 receipts in vendor/provenance.json. Official source: https://github.com/mapbox/earcut/tree/v3.0.2 . Existing assets and licenses remain unchanged.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-## Rig force response sprites — 2026-11-05
-
-assets/art/rig-standard-sheet.png, rig-bilge-sheet.png and rig-winch-sheet.png derive from three project-specific OpenAI image_gen generation events (nine aligned keys), using only this project’s gameplay art as the style reference. Original sources/prompts and exact equal-cell registration records remain in the private art workshop. Runtime canvas, common pivots, world scale and source digests are recorded in assets/art/RIG-FORCE-PROVENANCE.json. These are pre-generated player-facing AI assets, not CC0 stock or live generation. Include them in the Steam pre-generated AI content inventory; no exclusive copyright or wholly human authorship claim. Actual standard/bilge placement and the winch single-rope response received bounded scene acceptance, not whole-motion, human-enjoyment or physical-phone approval.
-
-
-## Pump closed-valve plate edit — 2026-11-05
-
-assets/art/dev9-pump-warden-valve-closed.png (SHA256 a60a3e14b7ca32ecb5ea6921dbc5e27ee03e77b644c644ffb0d502ceaf1933b3) is a pre-generated OpenAI image_gen edit, one generation event, of this project’s existing closed-valve artwork. The authored masked composite retains the original512×512 canvas, pivot[256,448], .024 world units per pixel, protected pipe/base pixels and physical footprint; the existing open-valve image is unchanged. Original prompt, generated source, mask, processing script and source/output digests remain in the private art-workshop/2026-11-05/pump-valve-lock-readability-02 contract. No new external stock, CC0 status, exclusive generated copyright or wholly human authorship is claimed. Fixed artwork only; no live generation. Include this incremental edit in Steam pre-generated AI disclosures. Preparation pending final bounded art/UI acceptance; existing PC three-scene review does not establish motion, phone performance or human approval.
-
-Source40 integration update: designated art/UI owners and root accepted only the existing1280×800 static PC scenes; see private ACTUAL-PC-REVIEW-03.md, UI02 visual-review.json and renderer03/root-review.json. The earlier preparation-pending status and original contract flags are historical; mobile, continuous motion and human/performance acceptance remain unestablished.
-
-
-## Mechanical heart stopped-state edit — 2026-11-05
-
-assets/art/dev9-machine-heart-stopped-v1.png (SHA256 ae155273d8f76476cecf492638416e9efec61010a84220b525ecabe391963d47) is one pre-generated OpenAI image_gen edit of this project’s existing mechanical-heart idle artwork. The authored masked composite preserves the original512×512 canvas, pivot[256,448], reference body400px/world height28 (.07 world units per pixel), protected lower base pixels and existing physical footprint. It is a fixed stopped-state image; no live generation or stopped animation loop. Private source, prompt, mask, processing and original/output hashes remain in art-workshop/2026-11-05/machine-heart-stopped-01/contract.json. No new external stock, CC0 status, exclusive generated copyright or wholly human authorship is claimed. Include this incremental edit in Steam pre-generated AI disclosures. Root has bounded static PC dead/won scene evidence; final designated art/UI confirmation and integration gates remain pending. No mobile, continuous motion, physical-phone or human acceptance claim. Existing assets, licenses and reserved father-face work remain untouched.
-
-Source41 integration update: designated art/UI owners and root accepted only the existing1280×800 static dead-body and KO-result PC scenes; see private machine-heart-stopped01/ACTUAL-PC-REVIEW-02.md, result-summary01/visual-review.json and homecoming renderer02/root-review.json. The earlier preparation-pending status and original contract flags are historical; mobile, continuous motion and human/performance acceptance remain unestablished.
-
-
-## W land-wall body material — 2026-11-05
-
-assets/art/near-wall-W-body-v1.png (SHA256 ec9e1aaa1428ad7de1ecf53afd9be1c80af395211de555684c715a7df9b757ed) is the selected fixed pre-generated OpenAI image_gen material from two generation calls. It uses this project’s existing wall body/cap/role sheet as references; no external stock was introduced. Original sources, two prompts, mask, processing script and output/reference hashes remain in private art-workshop/2026-11-05/W-role-material-candidate-01/contract.json. The512×256 body uses the existing19.2 world-unit tangent period,9.6 body/2.4 cap height and original role/owner/UV/fog contracts; shared cap and original N/coastal/E/S materials remain. Material foot detail stays inside the original body. W land-wall body selection and retained original crown coverage are presentation only; no simulation/camera/survey change is intended. One actual PC W-scene art review is bounded acceptance; mobile follow-up and integrated43 checks are pending. Not CC0, exclusive generated copyright or wholly human authorship; no live AI. Include the selected asset and two generation calls in incremental pre-generated AI disclosures.
-
-Integration43 bounded update: explicit root approval accepts existing mobile02 won/nav44px and W connection captures only, plus artist actualPC W-scene acceptance. Earlier contract/preparation pending flags remain historical. Heart natural radio expiry/base restoration was prevented by an actual natural defeat and remains unverified; pure cache guards are distinct. No mobile/human/FPS/whole-wall or sound04 approval follows.
-
-
-## Connected-mass top raster and sampled mechanical latch — 2026-11-05
-
-assets/art/cliff-top-connected-mass-v1.png (SHA256 717cff67ab517c14126f9ab1a3cdf45013681870c746d00cec97f269b791e032) is one pre-generated OpenAI image_gen call, uniformly resized to512×512. Prompt, generated original and exact reference/output hashes remain in private art-workshop/2026-11-05/connected-mass-top-raster-01/contract.json. This is painted-volume material in the existing z12/worldXY÷19.2 top domain; no new geometry, cutaway, ownership, collider or numeric shoulder. No new external stock, CC0 designation, exclusive generated copyright or wholly human authorship is claimed for this image. Include one new image-generation call in pre-generated AI disclosures; no live AI. PC art review is bounded; mobile/integration acceptance remains pending.
-
-assets/audio/latch.ogg (SHA256 ef29c3943ee701616f65e3d596c13eb3ff6b11ca5b3ac01e7bc923366a5c6f76) is the byte-exact Kenney Sci-Fi Sounds1.0 Audio/impactMetal_003.ogg from third-party-source/kenney_sci-fi-sounds.zip, CC0 1.0. Exact original License.txt bytes are already retained in assets/licenses/Kenney-SciFi-CC0.txt. No audio generation or sample editing; existing player uses at most160ms with50ms tail fade, cue gain0.4 and existing effects/master/focus buses. Root selected this sample to address prior electronic-explosion feedback; no user listening/semantic acceptance or live BGM-masking claim. Synthesized04 preview remains excluded.
-
-Integration45 bounded update: root accepts PC art view plus mobile art-only44 capture with most interior top obscured; no full material aesthetics/height recognition claim. Mobile review retained44 audio and did not test this CC0 sample. Combined45 sample decode and prior OfflineAudioContext evidence are separate. Root accepts sample integration as feedback correction; user listening acceptance remains false.
-
-
-## Reused AI low-ground and low-edge material (evaluation52)
-
-assets/art/unserviced-ground-v1.png reuses the project bedrock-v3 image byte-for-byte (SHA256 4961d1b47b89ea93af42ae014ffccc8c189877d0b6209c28475055dd2390b910). The existing cliff-face-v1.png supplies low side material. Both are existing project-specific OpenAI image_gen assets based on project references; no new generation, processing or external stock was added. Existing generated-service terms and rights in the project references apply. No CC0 or exclusive copyright claim is made. Original prompts, source imagery and separate ground/low-edge role contracts remain preserved in the private AI-content review inventory.
-Ground/coping use world XY period19.2; low side retains existing7.68-world drop and2.544-world coping width. The side V reference12 defines texture density, not new geometry height. Original raised-cliff HOLD remains. Owner acceptance is limited to one static material-separation scene; not natural-coast/fog/GPU/phone-performance or gameplay acceptance.
-
-
-## Evaluation53 retained GPU material route
-The existing evaluation52 low-ground/coping raster and original side image are unchanged. The retained GPU route now explicitly opts in only for experimental shared frames at depth>0 without a cliff mask, with gate/material revision in its cache key. Owner GPU art acceptance remains one static scene of material-role separation; not coast geometry, actor/filtering equality, WebGL1/context-loss, all fog/fleet or phone FPS acceptance. Original source/role contracts, AI provenance and non-CC0/non-exclusive-rights notices remain preserved.
+## Private runtime18 candidate
+Earcut v3.0.2 remains ISC; exact license retained at src/coast-geometry/vendor/EARCUT-LICENSE. The two closed-coast material PNGs are existing project image_gen art, not newly generated media. This candidate is not published.
