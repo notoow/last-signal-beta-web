@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "sheet": "assets/art/shore-scrap-fx-v2.png",
+  "canvas": [
+    384,
+    256
+  ],
+  "sourceAtlas": "shore-fauna-v2.png",
+  "sourceAtlasSha256": "896f19452013971baaf275f6a859cb2eb3e79bb79cadd972d8dc46532bb8c971",
+  "frames": [
+    {
+      "id": "projectile",
+      "rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "pivot": [
+        97.25,
+        67.5
+      ],
+      "canvasCssAtCrew35": 16
+    },
+    {
+      "id": "trail",
+      "rect": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "pivot": [
+        107.75,
+        67.5
+      ],
+      "canvasCssAtCrew35": 22
+    },
+    {
+      "id": "hit",
+      "rect": [
+        0,
+        128,
+        128,
+        128
+      ],
+      "pivot": [
+        71.25,
+        57
+      ],
+      "canvasCssAtCrew35": 24
+    },
+    {
+      "id": "armor-hit",
+      "rect": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "pivot": [
+        75.75,
+        57
+      ],
+      "canvasCssAtCrew35": 26
+    },
+    {
+      "id": "hit-tail",
+      "rect": [
+        256,
+        128,
+        128,
+        128
+      ],
+      "pivot": [
+        69,
+        59.5
+      ],
+      "canvasCssAtCrew35": 24
+    }
+  ],
+  "timingMs": {
+    "hitPeak": 80,
+    "hitTail": 100,
+    "armor": 100
+  },
+  "landmarks": {
+    "rat": {
+      "0": {
+        "normalizedLift": 0.27734375
+      },
+      "1": {
+        "normalizedLift": 0.27734375
+      },
+      "2": {
+        "normalizedLift": 0.27734375
+      },
+      "3": {
+        "normalizedLift": 0.23828125
+      },
+      "4": {
+        "normalizedLift": 0.31640625
+      },
+      "5": {
+        "normalizedLift": 0.26171875
+      }
+    },
+    "dog": {
+      "0": {
+        "normalizedLift": 0.4140625
+      },
+      "1": {
+        "normalizedLift": 0.40625
+      },
+      "2": {
+        "normalizedLift": 0.4140625
+      },
+      "3": {
+        "normalizedLift": 0.359375
+      },
+      "4": {
+        "normalizedLift": 0.4765625
+      },
+      "5": {
+        "normalizedLift": 0.390625
+      }
+    },
+    "crab": {
+      "0": {
+        "normalizedLift": 0.61328125
+      },
+      "1": {
+        "normalizedLift": 0.60546875
+      },
+      "2": {
+        "normalizedLift": 0.60546875
+      },
+      "3": {
+        "normalizedLift": 0.5390625
+      },
+      "4": {
+        "normalizedLift": 0.48046875
+      },
+      "5": {
+        "normalizedLift": 0.421875
+      }
+    }
+  }
+}

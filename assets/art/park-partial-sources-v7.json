@@ -1,0 +1,1369 @@
+{
+  "version": 7,
+  "productionReady": false,
+  "dynamicDirectionSelectionApproved": false,
+  "wholeFamilyApproved": false,
+  "scope": "Existing21 exact plus four original standalone front/rear contacts; idle sources reused, no atlas request or mirroring",
+  "inputs": [
+    {
+      "source": "art-workshop/2026-11-11/park-search-four-view-handoff-01/frames-v1.json",
+      "sha256": "2f59d6d748e351498542aa5992cceb85b906b3d632d6505dae15c629c2edd3cf"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-search-idle-handoff-01/idle-frame-inputs-v2.json",
+      "sha256": "4baabe016aab4cb2ee9cc948be1e360001f2388fb4714555240d395f9e4f727d"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-canonical-inputs-01/catalog-v1.json",
+      "sha256": "acd6ba0c6d63a9623e41a71833f2a324697b42fc1cfd9e5510006c6d44fce4ab"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-side-walk-01/registration-v2.json",
+      "sha256": "b693d6a66b172d16bdff9f36aae60987fce9b3603f163a254bb8d48bf2abc992"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-attack-01/registration-v1.json",
+      "sha256": "0b7ffedd4bb84c5b29fdbfc8455f9459dcf156df5e3c950d0015ed4bfd00d832"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-guard-01/stationary-frame-landmarks-v3.json",
+      "sha256": "f290a8ce943deeeded831d48b863faf1fceef417e05991d024033042ec6334d4"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-moving-guard-01/frame-landmarks-v1.json",
+      "sha256": "6df88d1ad0c264734e6535177a911ee23dcfc95758a7328d5fcab45d7942ab9e"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-throw-01/throw-frame-inputs-v1.json",
+      "sha256": "5ee0a6c56f939685c37245b0afeaafd7ba7168a4e90664ed9868f41d350c9379"
+    },
+    {
+      "source": "art-workshop/2026-11-11/park-canonical-inputs-01/front-rear-standalone-inputs-v1.json",
+      "sha256": "9ecefb4185d4e9b28f1b932f52b0c0971c34f85d7fa1dfd97d1f44086f53338a"
+    }
+  ],
+  "frames": [
+    {
+      "id": "front-search",
+      "authoredView": "front",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-front-search-01/park-front-search-v1.png",
+        "sha256": "35822771dba98363344ce9e2d49380c5925698ad86d3c80628c326e01e8ce92c",
+        "file": "park-front-search-v1.png"
+      },
+      "originalContract": {
+        "path": "art-workshop/2026-11-11/park-front-search-01/registration-v1.json",
+        "sha256": "12a348279a24b021d1f621ed80da280c2ecce58c6eb97555541d1a22b78f97b7"
+      },
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        258.5,
+        180
+      ],
+      "opaqueBodyBounds": [
+        144,
+        180,
+        214,
+        307
+      ],
+      "opaqueBoundsFormat": "xywh; inclusive original extrema converted with+1 when needed",
+      "handLandmarks": [
+        {
+          "sourceROI": [
+            480,
+            990,
+            110,
+            128
+          ],
+          "source": [
+            516.5,
+            1100
+          ],
+          "meaning": "Lowest visible hand/finger alpha in authored ROI, not approved world contact",
+          "packed": [
+            217.15331491712706,
+            479.17127071823205
+          ]
+        },
+        {
+          "sourceROI": [
+            625,
+            990,
+            110,
+            128
+          ],
+          "source": [
+            688,
+            1116
+          ],
+          "meaning": "Lowest visible hand/finger alpha in authored ROI, not approved world contact",
+          "packed": [
+            288.21685082872926,
+            485.8011049723757
+          ]
+        }
+      ],
+      "nativeFlip": false,
+      "reviewScope": "actual97 fixed still-idle/search pair reviewed; no all-approach contact",
+      "handWorldContactApproved": false,
+      "productionReady": false,
+      "group": "search"
+    },
+    {
+      "id": "rear-search",
+      "authoredView": "rear",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-rear-search-01/park-rear-search-v3.png",
+        "sha256": "2d2f0ce696ea94ba3422e3a67d002e72b776274d434db45cd6582a8adbbfc870",
+        "file": "park-rear-search-v3.png"
+      },
+      "originalContract": {
+        "path": "art-workshop/2026-11-11/park-rear-search-01/registration-v3.json",
+        "sha256": "0c0aff24efa367b6a1606f6cbbbd2d283e7ef90c108ce86e44c3f2b4173cfe56"
+      },
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        258.5,
+        180
+      ],
+      "opaqueBodyBounds": [
+        141,
+        180,
+        230,
+        301
+      ],
+      "opaqueBoundsFormat": "xywh; inclusive original extrema converted with+1 when needed",
+      "handLandmarks": [
+        {
+          "source": [
+            400,
+            664
+          ],
+          "packed": [
+            161.72033898305085,
+            300.7627118644068
+          ],
+          "sourceROI": [
+            345,
+            425,
+            650,
+            750
+          ],
+          "meaning": "Topmost visible hand/finger alpha>96 in authored hand-only ROI; not world contact approval"
+        },
+        {
+          "source": [
+            841.5,
+            663
+          ],
+          "packed": [
+            348.7966101694915,
+            300.33898305084745
+          ],
+          "sourceROI": [
+            810,
+            900,
+            650,
+            750
+          ],
+          "meaning": "Topmost visible hand/finger alpha>96 in authored hand-only ROI; not world contact approval"
+        }
+      ],
+      "nativeFlip": false,
+      "reviewScope": "Packed whole frame viewed only; new rear source remains actual568/960 review pending",
+      "handWorldContactApproved": false,
+      "productionReady": false,
+      "group": "search"
+    },
+    {
+      "id": "right-search",
+      "authoredView": "right",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-side-search-01/park-right-search-v1.png",
+        "sha256": "e39cacb8b3066a89b739bedbc540323e6feeed5447f2e4dfaa99f83957c57b8a",
+        "file": "park-right-search-v1.png"
+      },
+      "originalContract": {
+        "path": "art-workshop/2026-11-11/park-side-search-01/registration-right-v1.json",
+        "sha256": "cc6926680a6a9d316ad27397c9864f7f4f81afa24e82e08b122adfad6fd65ddb"
+      },
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        338,
+        180
+      ],
+      "opaqueBodyBounds": [
+        159,
+        180,
+        279,
+        301
+      ],
+      "opaqueBoundsFormat": "xywh; inclusive original extrema converted with+1 when needed",
+      "handLandmarks": [
+        {
+          "meaning": "Lowest visible hand-tip alpha in authored ROI; not approved world contact",
+          "source": [
+            781,
+            952
+          ],
+          "sourceROI": [
+            740,
+            885,
+            100,
+            75
+          ],
+          "packed": [
+            365.97067448680355,
+            416.65689149560114
+          ]
+        },
+        {
+          "meaning": "Lowest visible hand-tip alpha in authored ROI; not approved world contact",
+          "source": [
+            893.5,
+            883
+          ],
+          "sourceROI": [
+            840,
+            800,
+            110,
+            100
+          ],
+          "packed": [
+            415.45747800586514,
+            386.3049853372434
+          ]
+        }
+      ],
+      "nativeFlip": false,
+      "reviewScope": "actual97 fixed still-idle/search pair reviewed; no all-approach contact",
+      "handWorldContactApproved": false,
+      "productionReady": false,
+      "group": "search"
+    },
+    {
+      "id": "left-search",
+      "authoredView": "left",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-side-search-01/park-left-search-v1.png",
+        "sha256": "cb01afe87777d8714e8f9cd7b1e1fb4a3946b3fdbb0385a4beee1e8590917863",
+        "file": "park-left-search-v1.png"
+      },
+      "originalContract": {
+        "path": "art-workshop/2026-11-11/park-side-search-01/registration-left-v1.json",
+        "sha256": "7de974aa955920bda89c4eac91ac867d693f263be6d79072887829ce7ba73508"
+      },
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        185.5,
+        180
+      ],
+      "opaqueBodyBounds": [
+        76,
+        180,
+        283,
+        300
+      ],
+      "opaqueBoundsFormat": "xywh; inclusive original extrema converted with+1 when needed",
+      "handLandmarks": [
+        {
+          "packed": [
+            142.46616541353384,
+            417.593984962406
+          ],
+          "meaning": "Lowest visible hand-tip alpha in authored ROI; not approved world contact",
+          "source": [
+            421.5,
+            939
+          ],
+          "sourceROI": [
+            350,
+            850,
+            100,
+            100
+          ]
+        },
+        {
+          "packed": [
+            98.29323308270676,
+            386.01503759398497
+          ],
+          "meaning": "Lowest visible hand-tip alpha in authored ROI; not approved world contact",
+          "source": [
+            304,
+            855
+          ],
+          "sourceROI": [
+            235,
+            750,
+            145,
+            115
+          ]
+        }
+      ],
+      "nativeFlip": false,
+      "reviewScope": "Packed whole frame viewed only; actual568/960 review pending",
+      "handWorldContactApproved": false,
+      "productionReady": false,
+      "group": "search"
+    },
+    {
+      "productionReady": false,
+      "head": [
+        259.5,
+        81
+      ],
+      "physicalFootprint": null,
+      "canvas": [
+        512,
+        512
+      ],
+      "image": {
+        "path": "art-workshop/2026-11-11/park-front-readability-01/park-front-idle-v1.png",
+        "sha256": "490eaffe64be5ee7f03dc2490dfae614e2cd6d3552dc679952334fca2dcd4382",
+        "file": "park-front-idle-v1.png"
+      },
+      "opaqueBodyBounds": [
+        161,
+        81,
+        190,
+        400
+      ],
+      "measurement": "Source alpha>32 XYWH; head first alpha>96 top row within authored cap ROI. This is new explicit metadata, original PNG/old contracts untouched.",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "front-idle",
+      "nativeFlip": {
+        "approved": false
+      },
+      "metadataScope": "Explicit new head/alpha metadata for existing selected PNG; actual97 transition verification pending.",
+      "group": "idle"
+    },
+    {
+      "productionReady": false,
+      "head": [
+        258,
+        81
+      ],
+      "physicalFootprint": null,
+      "canvas": [
+        512,
+        512
+      ],
+      "image": {
+        "path": "art-workshop/2026-11-11/park-rear-readability-01/park-rear-idle-v1.png",
+        "sha256": "91f582ad3af1287d7c45b20a138d49c059870e9f8d99ca1117dca8d9fc1a2962",
+        "file": "park-rear-idle-v1.png"
+      },
+      "opaqueBodyBounds": [
+        165,
+        80,
+        183,
+        401
+      ],
+      "measurement": "Source alpha>32 XYWH; head first alpha>96 top row within authored cap ROI. This is new explicit metadata, original PNG/old contracts untouched.",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "rear-idle",
+      "nativeFlip": {
+        "approved": false
+      },
+      "metadataScope": "Explicit new head/alpha metadata for existing selected PNG; actual97 transition verification pending.",
+      "group": "idle"
+    },
+    {
+      "productionReady": false,
+      "head": [
+        256,
+        81
+      ],
+      "physicalFootprint": null,
+      "canvas": [
+        512,
+        512
+      ],
+      "image": {
+        "path": "art-workshop/2026-11-11/park-side-readability-01/park-side-idle-v1.png",
+        "sha256": "fa31d789a95eae501ccb541658536e9aa4b5f3fb163fb8a9fc187a54929e39e5",
+        "file": "park-side-idle-v1.png"
+      },
+      "opaqueBodyBounds": [
+        151,
+        81,
+        186,
+        408
+      ],
+      "measurement": "Source alpha>32 XYWH; head first alpha>96 top row within authored cap ROI. This is new explicit metadata, original PNG/old contracts untouched.",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "side-idle",
+      "nativeFlip": {
+        "approved": true,
+        "scope": "Existing crewPose side-idle left/right flip only, in declared prior568/960 static after scenes; not search mirroring or current97 transition/full family approval.",
+        "evidence": "evidence/park-side-idle-preview-20261111-02/report.json"
+      },
+      "metadataScope": "Original reviewed standalone head and alpha96 XYWH reused exactly; alpha32 remeasurement retained as diagnostic only.",
+      "alpha32Diagnostic": {
+        "head": [
+          257,
+          81
+        ],
+        "opaqueBodyBounds": [
+          151,
+          81,
+          186,
+          409
+        ]
+      },
+      "originalReviewedContract": {
+        "path": "art-workshop/2026-11-11/park-side-readability-01/registration-v1.json",
+        "sha256": "018bc367ddbf0ce0ee29604ba484cecb783117c572d0a1528e79c625bcd60f09"
+      },
+      "group": "idle"
+    },
+    {
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "head": [
+        253.5,
+        80
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "side-left-contact",
+      "referenceHeight": 400,
+      "sha256": "4a126434618ed3d084e8a225843605a7fe9ce49288d79b510d376857bd129dc5",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-side-walk-01/park-side-left-contact-v2.png",
+        "file": "park-side-left-contact-v2.png",
+        "sha256": "4a126434618ed3d084e8a225843605a7fe9ce49288d79b510d376857bd129dc5"
+      },
+      "opaqueBodyBounds": [
+        115,
+        80,
+        238,
+        400
+      ],
+      "group": "walk",
+      "canvas": [
+        512,
+        512
+      ],
+      "productionReady": false
+    },
+    {
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "head": [
+        252.5,
+        81
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "side-right-contact",
+      "referenceHeight": 400,
+      "sha256": "fb64a15a7c5c19bbd7434c07bf445ba0d17d097d5a1062414549bdb1a61579bc",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-side-walk-01/park-side-right-contact-v2.png",
+        "file": "park-side-right-contact-v2.png",
+        "sha256": "fb64a15a7c5c19bbd7434c07bf445ba0d17d097d5a1062414549bdb1a61579bc"
+      },
+      "opaqueBodyBounds": [
+        111,
+        81,
+        242,
+        399
+      ],
+      "group": "walk",
+      "canvas": [
+        512,
+        512
+      ],
+      "productionReady": false
+    },
+    {
+      "id": "windup",
+      "rect": [
+        0,
+        0,
+        640,
+        512
+      ],
+      "paddingX": 64,
+      "reuses": "../park-guard-01/park-riposte-ready-v3.png",
+      "opaqueBodyBounds": [
+        139,
+        110,
+        314,
+        371
+      ],
+      "pivot": [
+        320,
+        480
+      ],
+      "head": [
+        341.5,
+        115
+      ],
+      "group": "melee",
+      "canvas": [
+        1280,
+        512
+      ],
+      "referenceHeight": 400,
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-attack-01/park-melee-candidate-v1.png",
+        "file": "park-melee-candidate-v1.png",
+        "sha256": "2e6c51199f180ce7c4f4d1973a1fb7bf57d41e693c17f385536c418fd998f10e"
+      }
+    },
+    {
+      "pivot": [
+        320,
+        480
+      ],
+      "rect": [
+        640,
+        0,
+        640,
+        512
+      ],
+      "packedBounds": [
+        167,
+        114,
+        585,
+        479
+      ],
+      "opaqueBodyBounds": [
+        167,
+        114,
+        419,
+        366
+      ],
+      "head": [
+        384,
+        114
+      ],
+      "sourceFloor": 1156,
+      "id": "strike",
+      "scale": 0.42020665901262916,
+      "sourceCapTop": 285,
+      "sourceBootCenter": 543.5,
+      "group": "melee",
+      "canvas": [
+        1280,
+        512
+      ],
+      "referenceHeight": 400,
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-attack-01/park-melee-candidate-v1.png",
+        "file": "park-melee-candidate-v1.png",
+        "sha256": "2e6c51199f180ce7c4f4d1973a1fb7bf57d41e693c17f385536c418fd998f10e"
+      }
+    },
+    {
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "active-hold",
+      "opaqueBodyBounds": [
+        140,
+        95,
+        271,
+        385
+      ],
+      "head": [
+        250,
+        95
+      ],
+      "group": "guard",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-guard-01/park-guard-keyposes-preview-v3.png",
+        "file": "park-guard-keyposes-preview-v3.png",
+        "sha256": "022eaa52713f01ab71cca182cb8b30a886f197d208d98804e1388a380db39d8e"
+      }
+    },
+    {
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "success-snap",
+      "opaqueBodyBounds": [
+        121,
+        29,
+        349,
+        451
+      ],
+      "head": [
+        232.5,
+        108
+      ],
+      "group": "guard",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-guard-01/park-guard-keyposes-preview-v3.png",
+        "file": "park-guard-keyposes-preview-v3.png",
+        "sha256": "022eaa52713f01ab71cca182cb8b30a886f197d208d98804e1388a380db39d8e"
+      }
+    },
+    {
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "whiff-recover",
+      "opaqueBodyBounds": [
+        147,
+        80,
+        292,
+        400
+      ],
+      "head": [
+        261.5,
+        81
+      ],
+      "group": "guard",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-guard-01/park-guard-keyposes-preview-v3.png",
+        "file": "park-guard-keyposes-preview-v3.png",
+        "sha256": "022eaa52713f01ab71cca182cb8b30a886f197d208d98804e1388a380db39d8e"
+      }
+    },
+    {
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "pivot": [
+        256,
+        480
+      ],
+      "id": "riposte-ready",
+      "opaqueBodyBounds": [
+        75,
+        110,
+        314,
+        371
+      ],
+      "head": [
+        277.5,
+        115
+      ],
+      "group": "guard",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-guard-01/park-guard-keyposes-preview-v3.png",
+        "file": "park-guard-keyposes-preview-v3.png",
+        "sha256": "022eaa52713f01ab71cca182cb8b30a886f197d208d98804e1388a380db39d8e"
+      }
+    },
+    {
+      "id": "near-contact",
+      "head": [
+        242,
+        100
+      ],
+      "index": 0,
+      "pivot": [
+        256,
+        480
+      ],
+      "opaqueBodyBounds": [
+        118,
+        99,
+        275,
+        378
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "group": "moving-guard",
+      "canvas": [
+        2048,
+        512
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-moving-guard-01/park-moving-guard-preview.png",
+        "file": "park-moving-guard-preview.png",
+        "sha256": "b8884bc5a1394ee6f54aa144c9c5d934e93e43938a44d22a153d26b68e3bbb86"
+      }
+    },
+    {
+      "id": "near-support-far-pass",
+      "head": [
+        236,
+        97
+      ],
+      "index": 1,
+      "pivot": [
+        256,
+        480
+      ],
+      "opaqueBodyBounds": [
+        129,
+        97,
+        257,
+        383
+      ],
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "group": "moving-guard",
+      "canvas": [
+        2048,
+        512
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-moving-guard-01/park-moving-guard-preview.png",
+        "file": "park-moving-guard-preview.png",
+        "sha256": "b8884bc5a1394ee6f54aa144c9c5d934e93e43938a44d22a153d26b68e3bbb86"
+      }
+    },
+    {
+      "id": "far-contact",
+      "head": [
+        246.5,
+        99
+      ],
+      "index": 2,
+      "pivot": [
+        256,
+        480
+      ],
+      "opaqueBodyBounds": [
+        122,
+        99,
+        276,
+        378
+      ],
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "group": "moving-guard",
+      "canvas": [
+        2048,
+        512
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-moving-guard-01/park-moving-guard-preview.png",
+        "file": "park-moving-guard-preview.png",
+        "sha256": "b8884bc5a1394ee6f54aa144c9c5d934e93e43938a44d22a153d26b68e3bbb86"
+      }
+    },
+    {
+      "id": "far-support-near-pass",
+      "head": [
+        238,
+        96
+      ],
+      "index": 3,
+      "pivot": [
+        256,
+        480
+      ],
+      "opaqueBodyBounds": [
+        131,
+        95,
+        259,
+        384
+      ],
+      "rect": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "referenceHeight": 400,
+      "group": "moving-guard",
+      "canvas": [
+        2048,
+        512
+      ],
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-moving-guard-01/park-moving-guard-preview.png",
+        "file": "park-moving-guard-preview.png",
+        "sha256": "b8884bc5a1394ee6f54aa144c9c5d934e93e43938a44d22a153d26b68e3bbb86"
+      }
+    },
+    {
+      "physicalFootprint": null,
+      "id": "throw-release",
+      "head": [
+        541.3284041897721,
+        80
+      ],
+      "sourceCanvas": [
+        1536,
+        1024
+      ],
+      "sourceCap": [
+        771.5,
+        124
+      ],
+      "image": {
+        "path": "art-workshop/2026-11-11/park-throw-01/park-throw-release-v1.png",
+        "sha256": "351cfb34c408a8e7abeacdbcc9a644d1bb0f1e0db699574ecd5bed4575a90603",
+        "bytes": 149371,
+        "file": "park-throw-release-v1.png"
+      },
+      "canvas": [
+        1024,
+        512
+      ],
+      "authoredView": "right",
+      "sourceContactMeasurements": [
+        {
+          "sourceROI": [
+            470,
+            845,
+            180,
+            105
+          ],
+          "sourcePoint": [
+            566.5,
+            944
+          ],
+          "id": "rear-boot",
+          "sourceSoleSpan": [
+            [
+              526,
+              944
+            ],
+            [
+              607,
+              944
+            ]
+          ]
+        },
+        {
+          "sourceROI": [
+            760,
+            835,
+            190,
+            105
+          ],
+          "sourcePoint": [
+            857.5,
+            927
+          ],
+          "id": "front-boot",
+          "sourceSoleSpan": [
+            [
+              797,
+              927
+            ],
+            [
+              918,
+              927
+            ]
+          ]
+        }
+      ],
+      "handLandmark": {
+        "sourceROI": [
+          1050,
+          330,
+          120,
+          100
+        ],
+        "sourcePoint": [
+          1157,
+          375
+        ],
+        "meaning": "Rightmost visible finger contour in authored ROI; candidate visual release point only, not a physical shot origin or approved flight anchor",
+        "packed": [
+          731.3468884781269,
+          203.72150338878623
+        ]
+      },
+      "completeRangedAnimationApproved": false,
+      "sourceGroundCentroidY": 935.5,
+      "opaqueBodyBounds": [
+        399,
+        80,
+        334,
+        405
+      ],
+      "sourceToPackedScale": 0.4929143561306223,
+      "nativeFlipApproved": false,
+      "scope": "Single authored right throw-release keypose. Existing combat timing/shot flight unaffected. New wider canvas and pivot must be read explicitly; do not assume512 or640, shrink-to-fit, crop or admit to current7/9-source bank. Recovery keypose and actual screen transitions remain pending.",
+      "referenceHeight": 400,
+      "productionReady": false,
+      "actualSceneReviewed": false,
+      "pivot": [
+        512,
+        480
+      ],
+      "sourceRoot": 712,
+      "rect": [
+        0,
+        0,
+        1024,
+        512
+      ],
+      "wholeFamilyApproved": false,
+      "originalContract": {
+        "path": "art-workshop/2026-11-11/park-throw-01/registration-release-v1.json",
+        "sha256": "8c413807561feee13a661cbfcf8dbad27aca3ed4f0b4d327f2fb34993057e02a",
+        "bytes": 2188
+      },
+      "original": {
+        "path": "art-workshop/2026-11-11/park-throw-01/park-throw-release-source-v1.png",
+        "sha256": "0601352a615cdf4e85ae8a99b22296c45964a3ae0fccd3e74ceed48869816040",
+        "bytes": 1058740
+      },
+      "prompt": {
+        "path": "art-workshop/2026-11-11/park-throw-01/prompt-release-v1.txt",
+        "sha256": "4affd0857643ce311b75eea1f25bd97e831bee4cd3923adcdb492a18fb478580",
+        "bytes": 1888
+      },
+      "opaqueBoundsFormat": "xywh",
+      "group": "ranged"
+    },
+    {
+      "actualSceneReviewed": false,
+      "sourceCanvas": [
+        1774,
+        887
+      ],
+      "wholeFamilyApproved": false,
+      "authoredView": "right",
+      "sourceGroundCentroidY": 833.5,
+      "sourceContactMeasurements": [
+        {
+          "sourceROI": [
+            680,
+            750,
+            145,
+            95
+          ],
+          "sourceSoleSpan": [
+            [
+              730,
+              840
+            ],
+            [
+              800,
+              840
+            ]
+          ],
+          "id": "rear-boot",
+          "sourcePoint": [
+            765,
+            840
+          ]
+        },
+        {
+          "sourceROI": [
+            940,
+            740,
+            150,
+            95
+          ],
+          "sourceSoleSpan": [
+            [
+              959,
+              827
+            ],
+            [
+              1066,
+              827
+            ]
+          ],
+          "id": "front-boot",
+          "sourcePoint": [
+            1012.5,
+            827
+          ]
+        }
+      ],
+      "sourceRoot": 888.75,
+      "referenceHeight": 400,
+      "canvas": [
+        1024,
+        512
+      ],
+      "pivot": [
+        512,
+        480
+      ],
+      "scope": "Single right throw recovery keypose matching the release family. No new timing, pose clock, physics or shot origin. Recovery has no release-hand landmark. Same explicit1024x512/pivot512480/ref400 as release; actual release/recovery/idle and left/right review pending.",
+      "rect": [
+        0,
+        0,
+        1024,
+        512
+      ],
+      "sourceCap": [
+        888,
+        125
+      ],
+      "sourceToPackedScale": 0.5645730416372619,
+      "nativeFlipApproved": false,
+      "completeRangedAnimationApproved": false,
+      "opaqueBodyBounds": [
+        397,
+        80,
+        226,
+        405
+      ],
+      "id": "throw-recover",
+      "physicalFootprint": null,
+      "head": [
+        511.5765702187721,
+        80
+      ],
+      "handLandmark": null,
+      "productionReady": false,
+      "image": {
+        "path": "art-workshop/2026-11-11/park-throw-01/park-throw-recover-v1.png",
+        "sha256": "d66b7346cd6a2ff4847b7203f4571753ef071bfb788dcd57857c6d9f49e2bde5",
+        "bytes": 137719,
+        "file": "park-throw-recover-v1.png"
+      },
+      "originalContract": {
+        "path": "art-workshop/2026-11-11/park-throw-01/registration-recover-v1.json",
+        "sha256": "13ef8edef1ba1ca0ad2b7aad83449f1a63bef55ec96170e13c55894088c896b8",
+        "bytes": 1800
+      },
+      "original": {
+        "path": "art-workshop/2026-11-11/park-throw-01/park-throw-recover-source-v1.png",
+        "sha256": "fa4df6738bb2fc834141ef20bbdb26aca8ae4b739340e110ad9396d6f182fbfb",
+        "bytes": 334914
+      },
+      "prompt": {
+        "path": "art-workshop/2026-11-11/park-throw-01/prompt-recover-v1.txt",
+        "sha256": "58c37e0564305aba8855fd13535ba3b43131caca96e275635eba7fc600da602c",
+        "bytes": 1846
+      },
+      "opaqueBoundsFormat": "xywh",
+      "group": "ranged"
+    },
+    {
+      "id": "front-left-contact",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-front-walk-01/park-front-left-contact-v1.png",
+        "sha256": "1bd24bfd64e991f5ef2463f787582e2ca7215de267d6d64d29da266514bb3067",
+        "file": "park-front-left-contact-v1.png"
+      },
+      "atlasCell": 1,
+      "equalRGBA": true,
+      "expectedShaMatches": true,
+      "alreadyInSevenSourceBank": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        254.5,
+        80
+      ],
+      "opaqueBodyBounds": [
+        170,
+        80,
+        182,
+        400
+      ],
+      "opaqueBoundsFormat": "xywh",
+      "nativeFlipApproved": false,
+      "group": "walk",
+      "actualSceneReviewed": false
+    },
+    {
+      "id": "front-right-contact",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-front-walk-01/park-front-right-contact-v1.png",
+        "sha256": "fdcebda65159dd7777804d03341ecd1590389b52cbbdc92e98273dc89e2fb578",
+        "file": "park-front-right-contact-v1.png"
+      },
+      "atlasCell": 2,
+      "equalRGBA": true,
+      "expectedShaMatches": true,
+      "alreadyInSevenSourceBank": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        254.5,
+        80
+      ],
+      "opaqueBodyBounds": [
+        169,
+        80,
+        183,
+        400
+      ],
+      "opaqueBoundsFormat": "xywh",
+      "nativeFlipApproved": false,
+      "group": "walk",
+      "actualSceneReviewed": false
+    },
+    {
+      "id": "rear-left-contact",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-rear-walk-01/park-rear-left-contact-v1.png",
+        "sha256": "e5751aaf6bbdd5185087fdf6bd7806767f1cde08140fa88c0fcf2134b680cbc8",
+        "file": "park-rear-left-contact-v1.png"
+      },
+      "atlasCell": 1,
+      "equalRGBA": true,
+      "expectedShaMatches": true,
+      "alreadyInSevenSourceBank": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        259,
+        80
+      ],
+      "opaqueBodyBounds": [
+        168,
+        80,
+        167,
+        400
+      ],
+      "opaqueBoundsFormat": "xywh",
+      "nativeFlipApproved": false,
+      "group": "walk",
+      "actualSceneReviewed": false
+    },
+    {
+      "id": "rear-right-contact",
+      "image": {
+        "path": "art-workshop/2026-11-11/park-rear-walk-01/park-rear-right-contact-v1.png",
+        "sha256": "8ac765ebc2571e1db0990dc47d0205702840d830fec0902acdbe453881109fb7",
+        "file": "park-rear-right-contact-v1.png"
+      },
+      "atlasCell": 2,
+      "equalRGBA": true,
+      "expectedShaMatches": true,
+      "alreadyInSevenSourceBank": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400,
+      "head": [
+        259.5,
+        80
+      ],
+      "opaqueBodyBounds": [
+        176,
+        80,
+        169,
+        400
+      ],
+      "opaqueBoundsFormat": "xywh",
+      "nativeFlipApproved": false,
+      "group": "walk",
+      "actualSceneReviewed": false
+    }
+  ],
+  "rangedInputStatus": {
+    "status": "오른쪽 투척 release/recovery 두 원본 입력; 런타임 미연결",
+    "actualSceneReviewed": false,
+    "completeRangedAnimationApproved": false
+  }
+}

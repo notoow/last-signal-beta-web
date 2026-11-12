@@ -1,0 +1,648 @@
+{
+  "assets": {
+    "body": {
+      "file": "woo-v2-body.png",
+      "canvas": [
+        1536,
+        2560
+      ]
+    },
+    "attack": {
+      "file": "woo-v2-attack.png",
+      "canvas": [
+        1536,
+        512
+      ]
+    },
+    "guard": {
+      "file": "woo-v2-guard.png",
+      "canvas": [
+        1024,
+        1024
+      ]
+    },
+    "hold": {
+      "file": "woo-v2-hold.png",
+      "canvas": [
+        2048,
+        512
+      ]
+    },
+    "whiff": {
+      "file": "woo-v2-whiff.png",
+      "canvas": [
+        2048,
+        512
+      ]
+    },
+    "counter": {
+      "file": "woo-v2-counter.png",
+      "canvas": [
+        2048,
+        1024
+      ]
+    },
+    "ranged": {
+      "file": "woo-v2-ranged.png",
+      "canvas": [
+        1024,
+        512
+      ]
+    },
+    "slam": {
+      "file": "woo-v2-slam.png",
+      "canvas": [
+        1536,
+        768
+      ]
+    }
+  },
+  "frames": [
+    {
+      "id": "front-idle",
+      "asset": "body",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "front-left-contact",
+      "asset": "body",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "front-right-contact",
+      "asset": "body",
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "rear-idle",
+      "asset": "body",
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "rear-left-contact",
+      "asset": "body",
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "rear-right-contact",
+      "asset": "body",
+      "rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "side-idle",
+      "asset": "body",
+      "rect": [
+        0,
+        1024,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "side-walk-0",
+      "asset": "body",
+      "rect": [
+        512,
+        1024,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "side-walk-1",
+      "asset": "body",
+      "rect": [
+        1024,
+        1024,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "side-walk-2",
+      "asset": "body",
+      "rect": [
+        0,
+        1536,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "side-walk-3",
+      "asset": "body",
+      "rect": [
+        512,
+        1536,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "hit",
+      "asset": "body",
+      "rect": [
+        1024,
+        1536,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "search",
+      "asset": "body",
+      "rect": [
+        0,
+        2048,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "windup",
+      "asset": "attack",
+      "rect": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "pivot": [
+        384,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "strike",
+      "asset": "attack",
+      "rect": [
+        768,
+        0,
+        768,
+        512
+      ],
+      "pivot": [
+        384,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "active-hold",
+      "asset": "guard",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "success-snap",
+      "asset": "guard",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "whiff-recover",
+      "asset": "guard",
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "riposte-ready",
+      "asset": "guard",
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-active-hold-0",
+      "asset": "hold",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-whiff-recover-0",
+      "asset": "whiff",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-success-snap-0",
+      "asset": "counter",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-riposte-ready-0",
+      "asset": "counter",
+      "rect": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-active-hold-1",
+      "asset": "hold",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-whiff-recover-1",
+      "asset": "whiff",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-success-snap-1",
+      "asset": "counter",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-riposte-ready-1",
+      "asset": "counter",
+      "rect": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-active-hold-2",
+      "asset": "hold",
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-whiff-recover-2",
+      "asset": "whiff",
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-success-snap-2",
+      "asset": "counter",
+      "rect": [
+        1024,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-riposte-ready-2",
+      "asset": "counter",
+      "rect": [
+        1024,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-active-hold-3",
+      "asset": "hold",
+      "rect": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-whiff-recover-3",
+      "asset": "whiff",
+      "rect": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-success-snap-3",
+      "asset": "counter",
+      "rect": [
+        1536,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "moving-riposte-ready-3",
+      "asset": "counter",
+      "rect": [
+        1536,
+        512,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "throw-release",
+      "asset": "ranged",
+      "rect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "throw-recover",
+      "asset": "ranged",
+      "rect": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        480
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "slam-preparation",
+      "asset": "slam",
+      "rect": [
+        0,
+        0,
+        768,
+        768
+      ],
+      "pivot": [
+        384,
+        704
+      ],
+      "referenceHeight": 400
+    },
+    {
+      "id": "slam-impact",
+      "asset": "slam",
+      "rect": [
+        768,
+        0,
+        768,
+        768
+      ],
+      "pivot": [
+        384,
+        704
+      ],
+      "referenceHeight": 400
+    }
+  ],
+  "decodedExtentRGBABytes": 46661632
+}
